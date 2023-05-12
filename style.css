@@ -1,0 +1,129 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: 'Inter', sans-serif;
+    color: white;
+}
+
+h1 {
+    font-weight: 700;
+    font-size: 32px;
+    line-height: 39px;
+}
+
+h2 {
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 18px;
+    color: #098A5B;
+}
+
+p {
+    font-weight: 500;
+    font-size: 15px;
+    line-height: 18px;
+}
+
+section {
+    width: 100vw;
+    height: 100vh;
+    background-color: #101017;
+    background-position: center;
+    background-size: cover;
+}
+
+.container {
+    max-width: 1090px;
+    margin-left: auto;
+    margin-right: auto;
+    height: fit-content;
+    justify-content: center;
+}
+
+#section1 {
+    background-image: url(./images/Rectangle\ 3.png);
+}
+
+header {
+    display: flex;
+    flex-direction: row;
+    padding-top: 31px;
+    padding-left: 57px;
+    padding-right: 52px;
+}
+
+.navbar {
+    text-decoration: none;
+    list-style: none;
+}
+
+.nav-item {
+    margin-right: 62px;
+}
+
+.nav-link {
+    font-weight: 700;
+}
+
+#contact-button {
+    margin-left: 80px;
+    padding-top: 17px;
+    padding-bottom: 17px;
+    padding-left: 10px;
+    padding-right: 10px;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 19px;
+    text-decoration: none;
+    background: none;
+    border: 1px solid #098A5B;
+}
+
+#search-icon {
+    margin-left: 56px;
+}
+
+#container1 h1 {
+    font-size: 64px;
+}
+
+#getting-started-button {
+    margin-top: 35px;
+    margin-bottom: 35px;
+    padding: 28px 22px;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 19px;
+    text-decoration: none;
+    background: none;
+    border: 1px solid #098A5B;
+    color: #098A5B;
+}
+
+.col {
+    max-width: 294px;
+    background-color: #313131;
+}
+
+.col-card {
+    margin-left: 18px;
+    margin-right: 18px;
+    margin-top: 25px;
+    margin-bottom: 27px;
+}
+
+.card-img {
+    height: 60px;
+    max-width: 60px;
+}
+
+.col-card-title {
+    margin-top: 14px;
+    font-weight: 700;
+    font-size: 22px;
+    color: white;
+}
+
+.col-card-line {
+    border-top: 3px solid #098A5B;
+}
