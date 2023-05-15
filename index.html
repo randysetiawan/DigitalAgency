@@ -17,51 +17,45 @@
 
 <body>
     <section id="section1">
-        <header class="container-fluid justify-content-between">
-            <h1 id="navbar-brand">Logo</h1>
-            <div class="d-flex align-items-center">
-                <nav>
-                    <ul class="navbar">
-                        <li class="nav-item"><a class="nav-link" href="#">Home</a></li>
-                        <li class="nav-item"><a class="nav-link" href="#">Services</a></li>
-                        <li class="nav-item"><a class="nav-link" href="#">Work</a></li>
-                        <li class="nav-item"><a class="nav-link" href="#">About Us</a></li>
-                        <li class="nav-item"><a class="nav-link" href="#">Blog</a></li>
+        <nav class="navbar navbar-expand-xl" id="daNavbar">
+            <div class="container-fluid">
+                <a class="navbar-brand" href="#">
+                    <h1>Logo</h1>
+                </a>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#collapsibleNavbarPart" aria-controls="collapsibleNavbarPart" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon">
+                        <i class="fas fa-bars"></i>
+                    </span>
+                </button>
+                <div class="collapse navbar-collapse" id="collapsibleNavbarPart">
+                    <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
+                        <li class="nav-item">
+                            <a class="nav-link" href="#">Home</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#">Services</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#">Work</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#">About us</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#">Blog</a>
+                        </li>
+                        <button id="contactButton">CONTACT</button>
+                        <a href="#">
+                            <i class="fa-solid fa-magnifying-glass" id="searchIcon"></i> 
+                        </a>
                     </ul>
-                </nav>
-                <button id="contact-button">CONTACT</button>
-                <a id="search-icon" href="#">
-                    <i class="fa-solid fa-magnifying-glass"></i>
-                </a>                
-            </div>        
-        </header>
-        <div id="container1" class="container">
-            <h2>CREATIVE MIND, CREATIVE WORKS.</h2>
-            <h1>We Are Digital <br> Agency</h1>
-            <button id="getting-started-button">GETTING STARTED</button>
-            <div class="row d-flex">
-                <div class="col">
-                    <div class="col-card">
-                        <img class="card-img" src="./images/Vector.png" alt="">
-                        <h2 class="col-card-title">Future Concept</h2>
-                        <hr class="col-card-line">
-                    </div>
-                </div>
-                <div class="col">
-                    <div class="col-card">
-                        <img class="card-img" src="./images/Vector-1.png" alt="">
-                        <h2 class="col-card-title">Big Ideas</h2>
-                        <hr class="col-card-line">
-                    </div>
-                </div>
-                <div class="col">
-                    <div class="col-card">
-                        <img class="card-img" src="./images/Vector-2.png" alt="">
-                        <h2 class="col-card-title">Creative Solutions</h2>
-                        <hr class="col-card-line">
-                    </div>
                 </div>
             </div>
+        </nav>
+        <div class="container" id="container1">
+            <h2>CREATIVE MIND, CREATIVE WORKS.</h2>
+            <h1>We Are Digital <br> Agency</h1>
+            <button id="gettingStartedButton">GETTING STARTED</button>
         </div>
     </section>
 </body>

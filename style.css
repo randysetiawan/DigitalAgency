@@ -32,98 +32,75 @@ section {
     background-size: cover;
 }
 
-.container {
-    max-width: 1090px;
-    margin-left: auto;
-    margin-right: auto;
-    height: fit-content;
-    justify-content: center;
-}
-
 #section1 {
-    background-image: url(./images/Rectangle\ 3.png);
+    background-image: url(Rectangle\ 3.png);
 }
 
-header {
-    display: flex;
-    flex-direction: row;
-    padding-top: 31px;
+#daNavbar {
+    padding-top: 30px;
     padding-left: 57px;
-    padding-right: 52px;
+    padding-right: 57px;
 }
 
-.navbar {
-    text-decoration: none;
-    list-style: none;
+#daNavbar .navbar-toggler .fas.fa-bars {
+    color: #098A5B; /* Replace with your desired color */
+    font-size: 20px; /* Adjust the size of the icon as needed */
 }
 
-.nav-item {
+.navbar-nav {
+    align-items: center;
+}
+
+.navbar .nav-item {
     margin-right: 62px;
 }
 
-.nav-link {
+.navbar .nav-link {
+    color: white;
     font-weight: 700;
 }
 
-#contact-button {
-    margin-left: 80px;
-    padding-top: 17px;
-    padding-bottom: 17px;
-    padding-left: 10px;
-    padding-right: 10px;
-    font-weight: 700;
-    font-size: 16px;
-    line-height: 19px;
-    text-decoration: none;
-    background: none;
-    border: 1px solid #098A5B;
-}
-
-#search-icon {
-    margin-left: 56px;
-}
-
-#container1 h1 {
-    font-size: 64px;
-}
-
-#getting-started-button {
-    margin-top: 35px;
-    margin-bottom: 35px;
-    padding: 28px 22px;
-    font-weight: 700;
-    font-size: 16px;
-    line-height: 19px;
-    text-decoration: none;
-    background: none;
-    border: 1px solid #098A5B;
+.navbar .nav-link:hover {
     color: #098A5B;
 }
 
-.col {
-    max-width: 294px;
-    background-color: #313131;
+.navbar .nav-link:focus {
+    color: #098A5B;
 }
 
-.col-card {
-    margin-left: 18px;
-    margin-right: 18px;
-    margin-top: 25px;
-    margin-bottom: 27px;
-}
-
-.card-img {
-    height: 60px;
-    max-width: 60px;
-}
-
-.col-card-title {
-    margin-top: 14px;
+#contactButton {
+    padding: 17px;
+    margin-right: 56px;
+    background: none;
+    border: 2px solid #098A5B;
     font-weight: 700;
-    font-size: 22px;
-    color: white;
 }
 
-.col-card-line {
-    border-top: 3px solid #098A5B;
+#searchIcon {
+    color: #098A5B;
+    font-size: 19px;
+}
+
+#container1 {
+    margin-top: 100px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+#container1 h2 {
+    font-size: 16px;
+}
+
+#container1 h1 {
+    font-weight: 700;
+    font-size: 64px;
+}
+
+#gettingStartedButton {
+    padding: 28px 22px;
+    width: fit-content;
+    background: none;
+    border: 2px solid #098A5B;
+    color: #098A5B;
 }
